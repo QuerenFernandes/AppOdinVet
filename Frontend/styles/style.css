@@ -1,0 +1,26 @@
+@import url(/Frontend/css/home.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-principal: 'Roboto Flex', sans-serif;
+    --laranja-principal: #EF7D00;
+    --laranja-background: #F48E1E;
+    --laranja-secundario: #FFE6CA;
+    --laranja-terciario: #FBCB96;
+    --laranja-claro:#FFF9F2;
+    --marrom-escuro: #542D00;
+    --marrom-claro: #975C19;
+    --cinza-principal: rgba(30, 30, 30, 0.81);
+    --cinza-secundario: #C2BDBD;
+    --cinza-claro: #E8E3E3;
+    --branco: #FFFFFF;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}
