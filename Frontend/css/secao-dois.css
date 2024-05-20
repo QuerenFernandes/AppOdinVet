@@ -1,0 +1,170 @@
+/*GERAL*/
+.secao-dois {
+    background-color: var(--laranja-secundario);
+    background-image: url(../img/Background\ Pata.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 1910px;
+    height: 1024px;
+}
+
+.secao-dois-img-patas-menores {
+    margin-left: 35px;
+}
+
+.secao-dois-titulo {
+    font-size: 45px;
+    font-weight: 400;
+    color: var(--cinza-principal);
+    text-align: right;
+    margin-left: 490px;
+    margin-right: 92.5px;
+    text-shadow: 
+        8px 8px 0 var(--branco),
+        -8px -8px 0 var(--branco),
+        8px -8px 0 var(--branco),
+        -8px 8px 0 var(--branco),
+        8px 0 0 var(--branco),
+        -8px 0 0 var(--branco),
+        0 8px 0 var(--branco),
+        0 -8px 0 var(--branco),
+        7px 7px 0 var(--branco),
+        -7px -7px 0 var(--branco),
+        7px -7px 0 var(--branco),
+        -7px 7px 0 var(--branco),
+        7px 0 0 var(--branco),
+        -7px 0 0 var(--branco),
+        0 7px 0 var(--branco),
+        0 -7px 0 var(--branco),
+        6px 6px 0 var(--branco),
+        -6px -6px 0 var(--branco),
+        6px -6px 0 var(--branco),
+        -6px 6px 0 var(--branco),
+        6px 0 0 var(--branco),
+        -6px 0 0 var(--branco),
+        0 6px 0 var(--branco),
+        0 -6px 0 var(--branco),
+        5px 5px 0 var(--branco),
+        -5px -5px 0 var(--branco),
+        5px -5px 0 var(--branco),
+        -5px 5px 0 var(--branco),
+        5px 0 0 var(--branco),
+        -5px 0 0 var(--branco),
+        0 5px 0 var(--branco),
+        0 -5px 0 var(--branco),
+        4px 4px 0 var(--branco),
+        -4px -4px 0 var(--branco),
+        4px -4px 0 var(--branco),
+        -4px 4px 0 var(--branco),
+        4px 0 0 var(--branco),
+        -4px 0 0 var(--branco),
+        0 4px 0 var(--branco),
+        0 -4px 0 var(--branco),
+        3px 3px 0 var(--branco),
+        -3px -3px 0 var(--branco),
+        3px -3px 0 var(--branco),
+        -3px 3px 0 var(--branco),
+        3px 0 0 var(--branco),
+        -3px 0 0 var(--branco),
+        0 3px 0 var(--branco),
+        0 -3px 0 var(--branco),
+        2px 2px 0 var(--branco),
+        -2px -2px 0 var(--branco),
+        2px -2px 0 var(--branco),
+        -2px 2px 0 var(--branco),
+        2px 0 0 var(--branco),
+        -2px 0 0 var(--branco),
+        0 2px 0 var(--branco),
+        0 -2px 0 var(--branco),
+        1px 1px 0 var(--branco),
+        -1px -1px 0 var(--branco),
+        1px -1px 0 var(--branco),
+        -1px 1px 0 var(--branco),
+        1px 0 0 var(--branco),
+        -1px 0 0 var(--branco),
+        0 1px 0 var(--branco),
+        0 -1px 0 var(--branco);
+}
+
+.secao-dois-titulo-laranja {
+    color: var(--laranja-principal);
+}
+
+/*CARDS*/
+
+.cards-servicos{
+    display: flex;
+    margin-left: 92.5px;
+    margin-right: 92.5px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.card-laranja, .card-servicos-maior {
+    width: 379px;
+    height: 371px;
+    border-radius: 50px;
+    margin-top: 100px;
+
+}
+
+.card-laranja {
+    background-color: var(--laranja-principal);
+    margin-right: 201.5px;
+    display: flex;
+}
+
+
+.card-tres{
+    margin-left: 201.5px;
+}
+
+.card-servicos-maior {
+    background-color: var(--branco);    
+}
+
+
+.titulo-card-1-servicos, .titulo-card-servicos {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo-card-1-servicos {
+    color: var(--branco);
+}
+
+.titulo-card-servicos {
+    color: var(--laranja-background);
+}
+
+.texto-card-1-servicos {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--branco);
+    text-align: center;
+}
+
+
+.button-card-1-servicos {
+    background-color: var(--branco);
+    color: var(--laranja-background);
+    border-radius: 60px;
+    width: 162px;
+    height: 47px;
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 250px;
+    margin-right: 80px;
+}
+
+.card-pititinho {
+
+}
+
+
+
+
