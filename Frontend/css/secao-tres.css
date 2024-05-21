@@ -1,11 +1,9 @@
-/*GERAL*/
-
+/* GERAL */
 .secao-tres {
-    background-image: url(../img//Background\ Pata\ Clara.png);
+    background-image: url(../img/Background\ Pata\ Clara.png);
     background-repeat: no-repeat;
     background-position-x: center;
-    width: 1910px;
-    height: 1024px;
+    width: 100%;
 }
 
 .secao-tres-titulo {
@@ -16,39 +14,192 @@
     margin-top: 20px;
 }
 
-
-/*ITENS*/
-
+/* ITENS */
 .secao-tres-lista {
     display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto; /* Centraliza a lista horizontalmente */
+    justify-content: space-between; /* Adiciona espaçamento uniforme entre os itens */
+    width: 1005.98px;
+    
 }
 
 .secao-tres-item-lista {
     display: flex;
-    flex-wrap: wrap ;
-    width: 398px;
-    margin-top: 50px;
-    margin-left: 400px;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 20px; /* Espaçamento vertical entre os itens */
+    align-items: flex-start; /* Alinha os itens no início */
+}
 
+.secao-tres-item-header {
+    display: flex;
+    align-items: center; /* Alinha imagem e título no centro verticalmente */
+    margin-bottom: 10px; /* Espaçamento entre o header e o texto */
+}
+
+.secao-tres-item-img {
+    margin-right: 20px; /* Espaçamento entre a imagem e o título */
 }
 
 .secao-tres-item-titulo {
     font-size: 32px;
     font-weight: 600;
-    margin-left: 30px;
-}
-
-.secao-tres-item-titulo, .secao-tres-item-texto {
     color: var(--cinza-principal);
 }
 
 .secao-tres-item-texto {
     font-size: 20px;
     font-weight: 400;
-    margin-right: -58px;
-    margin-left: 120px;
     text-align: justify;
+    color: var(--cinza-principal);
+    padding: 0 65px; /* espaçamento interno */
+}
 
+
+/*RODAPÉ*/
+.secao-tres-pt-rodape {
+    background-image: url(../img/osso.png);
+    background-repeat: no-repeat;
+    background-position: 420px 80px;
+    text-align: center;
+    margin-top: 40px;
+    background-color: var(--laranja-background);
+    width: 1099px;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto ;
+    height: 800px; /* Ajuste a altura conforme necessário */
+}
+
+.secao-tres-pt-rodape-titulo {
+    font-size: 35px;
+    font-weight: 400;
+    color: var(--branco);
+    text-align:end;
+    margin: -120px 500px 500px 100px;
+}
+
+.secao-tres-pt-rodape-titulo-especial {
+    color: var(--marrom-escuro);
+}
+
+.secao-tres-pt-rodape-img {
+    margin: 20px 0 0 950px;
+}
+
+.secao-tres-pt-rodape-texto {
+    font-size: 20px;
+    font-weight: 100;
+    color: var(--branco);
+    margin: -450px 500px 500px 100px;
+    text-align: right;
+}
+
+.secao-tres-pt-rodape-texto-2 {
+    font-size: 17px;
+    font-weight: 300;
+    color: var(--branco);
+    margin: -450px 700px 500px 25px;
+    text-align: justify;
+}
+
+.secao-tres-pt-botao {
+    background-color: var(--branco);
+    color: var(--cinza-principal);
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    width: 192px;
+    height: 61px;
+    margin: -580px 0 500px 690px;
+}
+
+input[type="email"] {
+    background-color: var(--branco); 
+    color: var(--laranja-principal); 
+    border: none; 
+    border-radius: 60px; 
+    font-size: 16px; 
+    width: 283px;
+    height: 38px;
+    margin: -480px 600px 900px 50px;
+
+}
+
+input[type="email"]::placeholder {
+    color: var(--laranja-principal);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+button[type="submit"] {
+    background: none; 
+    border: none; 
+    cursor: pointer;
+    margin: -938px 600px 1100px 350px;
+}
+
+.logo-rodape {
+    margin: -1050px 600px 1100px 90px;
+}
+
+.lista-footer {
+    margin: -1270px 0 1100px 425px;
+}
+
+.item-footer {
+    padding: 8px;
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.item-footer a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.contatos {
+    margin: -1270px 0 1100px 780px;
+
+}
+
+.contatos-tel {
+    padding: 20px;
+}
+
+.contatos-texto {
+    color: var(--cinza-principal);
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+   
+}
+
+.redes-sociais {
+    margin-top: 30px;
+}
+
+.redes-sociais-lista {
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+    gap: 35px;
+    margin-left: 10px;
+}
+
+.copy {
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--cinza-principal);
+    text-align: center;
+    margin: -1080px 0 1300px 880px;
 }
