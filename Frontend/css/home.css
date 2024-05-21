@@ -113,8 +113,7 @@ a {
 }
 
 .main-img{
-    margin-left: 600px;
-    margin-top: -200px;
+    margin: -200px 0 0 600px;
 }
 
 .main-principal{
@@ -126,8 +125,7 @@ a {
 .main-texto {
     font-size: 22px;
     color: var(--cinza-principal);
-    margin-right: 850px;
-    margin-top: -300px;
+    margin: -300px 850px 0 0;
     flex-wrap: wrap;
     width: 480px;
     word-wrap: break-word;

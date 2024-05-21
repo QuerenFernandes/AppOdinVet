@@ -1,0 +1,54 @@
+/*GERAL*/
+
+.secao-tres {
+    background-image: url(../img//Background\ Pata\ Clara.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 1910px;
+    height: 1024px;
+}
+
+.secao-tres-titulo {
+    font-size: 60px;
+    text-align: center;
+    color: var(--laranja-principal);
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+/*ITENS*/
+
+.secao-tres-lista {
+    display: flex;
+}
+
+.secao-tres-item-lista {
+    display: flex;
+    flex-wrap: wrap ;
+    width: 398px;
+    margin-top: 50px;
+    margin-left: 400px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secao-tres-item-titulo {
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.secao-tres-item-titulo, .secao-tres-item-texto {
+    color: var(--cinza-principal);
+}
+
+.secao-tres-item-texto {
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: -58px;
+    margin-left: 120px;
+    text-align: justify;
+
+}

@@ -13,77 +13,77 @@
 }
 
 .secao-dois-titulo {
+    position: relative;
     font-size: 45px;
     font-weight: 400;
     color: var(--cinza-principal);
     text-align: right;
-    margin-left: 490px;
-    margin-right: 92.5px;
+    margin: -100px 92.5px 0 490px;
     text-shadow: 
-        8px 8px 0 var(--branco),
-        -8px -8px 0 var(--branco),
-        8px -8px 0 var(--branco),
-        -8px 8px 0 var(--branco),
-        8px 0 0 var(--branco),
-        -8px 0 0 var(--branco),
-        0 8px 0 var(--branco),
-        0 -8px 0 var(--branco),
-        7px 7px 0 var(--branco),
-        -7px -7px 0 var(--branco),
-        7px -7px 0 var(--branco),
-        -7px 7px 0 var(--branco),
-        7px 0 0 var(--branco),
-        -7px 0 0 var(--branco),
-        0 7px 0 var(--branco),
-        0 -7px 0 var(--branco),
-        6px 6px 0 var(--branco),
-        -6px -6px 0 var(--branco),
-        6px -6px 0 var(--branco),
-        -6px 6px 0 var(--branco),
-        6px 0 0 var(--branco),
-        -6px 0 0 var(--branco),
-        0 6px 0 var(--branco),
-        0 -6px 0 var(--branco),
-        5px 5px 0 var(--branco),
-        -5px -5px 0 var(--branco),
-        5px -5px 0 var(--branco),
-        -5px 5px 0 var(--branco),
-        5px 0 0 var(--branco),
-        -5px 0 0 var(--branco),
-        0 5px 0 var(--branco),
-        0 -5px 0 var(--branco),
-        4px 4px 0 var(--branco),
-        -4px -4px 0 var(--branco),
-        4px -4px 0 var(--branco),
-        -4px 4px 0 var(--branco),
-        4px 0 0 var(--branco),
-        -4px 0 0 var(--branco),
-        0 4px 0 var(--branco),
-        0 -4px 0 var(--branco),
-        3px 3px 0 var(--branco),
-        -3px -3px 0 var(--branco),
-        3px -3px 0 var(--branco),
-        -3px 3px 0 var(--branco),
-        3px 0 0 var(--branco),
-        -3px 0 0 var(--branco),
-        0 3px 0 var(--branco),
-        0 -3px 0 var(--branco),
-        2px 2px 0 var(--branco),
-        -2px -2px 0 var(--branco),
-        2px -2px 0 var(--branco),
-        -2px 2px 0 var(--branco),
-        2px 0 0 var(--branco),
-        -2px 0 0 var(--branco),
-        0 2px 0 var(--branco),
-        0 -2px 0 var(--branco),
-        1px 1px 0 var(--branco),
-        -1px -1px 0 var(--branco),
-        1px -1px 0 var(--branco),
-        -1px 1px 0 var(--branco),
-        1px 0 0 var(--branco),
-        -1px 0 0 var(--branco),
-        0 1px 0 var(--branco),
-        0 -1px 0 var(--branco);
+    8px 0 0 var(--branco),
+    -8px 0 0 var(--branco),
+    0 8px 0 var(--branco),
+    0 -8px 0 var(--branco),
+    8px 8px 0 var(--branco),
+    -8px 8px 0 var(--branco),
+    8px -8px 0 var(--branco),
+    -8px -8px 0 var(--branco),
+    7px 0 0 var(--branco),
+    -7px 0 0 var(--branco),
+    0 7px 0 var(--branco),
+    0 -7px 0 var(--branco),
+    7px 7px 0 var(--branco),
+    -7px 7px 0 var(--branco),
+    7px -7px 0 var(--branco),
+    -7px -7px 0 var(--branco),
+    6px 0 0 var(--branco),
+    -6px 0 0 var(--branco),
+    0 6px 0 var(--branco),
+    0 -6px 0 var(--branco),
+    6px 6px 0 var(--branco),
+    -6px 6px 0 var(--branco),
+    6px -6px 0 var(--branco),
+    -6px -6px 0 var(--branco),
+    5px 0 0 var(--branco),
+    -5px 0 0 var(--branco),
+    0 5px 0 var(--branco),
+    0 -5px 0 var(--branco),
+    5px 5px 0 var(--branco),
+    -5px 5px 0 var(--branco),
+    5px -5px 0 var(--branco),
+    -5px -5px 0 var(--branco),
+    4px 0 0 var(--branco),
+    -4px 0 0 var(--branco),
+    0 4px 0 var(--branco),
+    0 -4px 0 var(--branco),
+    4px 4px 0 var(--branco),
+    -4px 4px 0 var(--branco),
+    4px -4px 0 var(--branco),
+    -4px -4px 0 var(--branco),
+    3px 0 0 var(--branco),
+    -3px 0 0 var(--branco),
+    0 3px 0 var(--branco),
+    0 -3px 0 var(--branco),
+    3px 3px 0 var(--branco),
+    -3px 3px 0 var(--branco),
+    3px -3px 0 var(--branco),
+    -3px -3px 0 var(--branco),
+    2px 0 0 var(--branco),
+    -2px 0 0 var(--branco),
+    0 2px 0 var(--branco),
+    0 -2px 0 var(--branco),
+    2px 2px 0 var(--branco),
+    -2px 2px 0 var(--branco),
+    2px -2px 0 var(--branco),
+    -2px -2px 0 var(--branco),
+    1px 0 0 var(--branco),
+    -1px 0 0 var(--branco),
+    0 1px 0 var(--branco),
+    0 -1px 0 var(--branco),
+    1px 1px 0 var(--branco),
+    -1px 1px 0 var(--branco),
+    1px -1px 0 var(--branco),
+    -1px -1px 0 var(--branco);
 }
 
 .secao-dois-titulo-laranja {
@@ -92,28 +92,32 @@
 
 /*CARDS*/
 
-.cards-servicos{
+.cards-servicos, .card-pititinho{
     display: flex;
-    margin-left: 92.5px;
-    margin-right: 92.5px;
+    margin: 0 92.5px 0 92.5px;
     align-items: center;
-    justify-content: center;
+    justify-content: center;   
+}
+
+
+.card-laranja, .card-servicos-maior, .card-servicos-menor {
+    width: 379px;
+    border-radius: 50px;
+    margin-top: 100px;
     
 }
 
-
-.card-laranja, .card-servicos-maior {
-    width: 379px;
-    height: 371px;
-    border-radius: 50px;
-    margin-top: 100px;
-
+.card-servicos-maior, .card-servicos-menor {
+    box-shadow: var(--shadow);
 }
 
-.card-laranja {
+.card-laranja, .card-servicos-maior {
+    height: 371px;
+}
+
+.card-laranja, .card-1 {
     background-color: var(--laranja-principal);
     margin-right: 201.5px;
-    display: flex;
 }
 
 
@@ -121,32 +125,49 @@
     margin-left: 201.5px;
 }
 
-.card-servicos-maior {
+.card-servicos-maior, .card-servicos-menor {
     background-color: var(--branco);    
 }
 
 
-.titulo-card-1-servicos, .titulo-card-servicos {
-    font-size: 35px;
+.titulo-card-1-servicos, .titulo-card-servicos, .titulo-card-servicos-menor, .titulo-card-servicos-menor-2 {
     font-weight: bold;
     text-align: center;
+    margin-top: 20px;
+}
+
+.titulo-card-1-servicos, .titulo-card-servicos {
+    font-size: 35px;
+}
+
+
+.titulo-card-servicos, .titulo-card-servicos-menor, .titulo-card-servicos-menor-2 {
+    color: var(--laranja-background);
 }
 
 .titulo-card-1-servicos {
     color: var(--branco);
+    text-align: center;
 }
 
-.titulo-card-servicos {
-    color: var(--laranja-background);
+.texto-card-1-servicos , .texto-card-servicos, .texto-card-servicos-menor {
+    text-align: justify;
+    margin: 0 50px 0 50px;
+    font-weight: bold;
+}
+
+.texto-card-1-servicos , .texto-card-servicos {
+    margin-top: 50px;
+}
+
+.texto-card-servicos-menor {
+    margin-top: 30px;
 }
 
 .texto-card-1-servicos {
     font-size: 20px;
-    font-weight: bold;
     color: var(--branco);
-    text-align: center;
 }
-
 
 .button-card-1-servicos {
     background-color: var(--branco);
@@ -157,14 +178,43 @@
     border: none;
     font-size: 18px;
     font-weight: bolder;
-    margin-top: 250px;
-    margin-right: 80px;
+    margin: 40px 0 0 50px ;
+}
+
+.texto-card-servicos, .texto-card-servicos-menor {
+    color: var(--cinza-principal);
+    font-size: 22px;
+    
+}
+
+.imagem-card-servicos {
+    margin: 80px 0 0 250px;
 }
 
 .card-pititinho {
-
+    margin-top: 50px;
 }
 
+.card-servicos-menor {
+    height:247px;
+}
 
+.titulo-card-servicos-menor {
+    font-size: 28px;
+}
 
+.titulo-card-servicos-menor-2 {
+    font-size: 20px;
+}
 
+.imagem-card-servicos-menor {
+    margin: 20px 0 10px 280px;  
+}
+
+.imagem-card-servicos-menor-2 {
+    margin: 0 0 30px 280px;
+}
+
+.imagem-card-servicos-menor-3 {
+    margin: 40px 0 30px 290px;
+}
