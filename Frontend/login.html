@@ -22,27 +22,33 @@
             <div class="home-login-principal-laranja">
                 <img class="home-login-logo" src="../Frontend/img/Logo-mini.png" alt="Variação do Logo da clínica Odin Vet">
                 <p class="home-login-texto">Aqui seu pet é tratado como um verdadeiro deus. </p>
-                <img src="../Frontend/img/Odinzin-login.png" alt="Imagem do Odin, um Husky Siberiano">
+                <img class="home-login-odinzinho" src="../Frontend/img/Odinzin-login.png" alt="Imagem do Odin, um Husky Siberiano">
             </div>
 
              <!--LADO BRANCO-->
-             <img src="../Frontend/img/Logo - letras.png" alt="Variação do Logo da clínica Odin Vet">
-            <h4>Bem vindos aumigos!</h4>
-            <form action="" method="post">
-                <label for="username-email">Usuário ou e-mail</label>
-                <input type="text" id="username-email" name="username_email" required>
+             <div class="home-login-principal-branco">
+                <img class="home-login-branco-logo" src="../Frontend/img/Logo - letras.png" alt="Variação do Logo da clínica Odin Vet">
+            <h4 class="home-login-branco-titulo">Bem vindos aumigos!</h4>
+            <form class="home-login-form" action="" method="post">
+                <label class="home-login-form-label" for="username-email">Usuário ou e-mail</label>
+                <input placeholder="Digite o seu email ou usuário" type="text" id="username-email" name="username_email" required>
     
-                <label for="password">Senha</label>
-                <input type="password" id="password" name="password" required>
-                <span><a href="#esqueceu-senha">Esqueceu sua senha?</a></span>
+                <label class="home-login-form-label" for="password">Senha</label>
+                <input placeholder="Digite a sua senha" type="password" id="password" name="password" required>
+
+                <span class="form-texto-esqueceu-senha"><a href="#esqueceu-senha">Esqueceu sua senha?</a></span>
     
-                <input type="submit" value="Entrar">
+                <input class="input-entrar" type="submit" value="Entrar">
+                <div class="div-ou">
+                    <hr class="hr">
 
-                <hr>
+                <span class="ou">ou</span>
 
-                <span>ou</span>
-                <hr>
-                <span>Faça login usando:</span>
+                <hr class="hr">
+
+                </div>
+                
+                <span class="form-faca-login">Faça login usando:</span>
                 <div>
                     <ul class="redes-sociais-lista">
                         <li class="redes-sociais-lista-item">
@@ -61,6 +67,8 @@
                 </div>
             </form>
 
+             </div>
+             
         </div>
 
     </section>

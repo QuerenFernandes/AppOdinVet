@@ -1,3 +1,4 @@
+/*GERAL*/
 .home-login {
     background-image: url(../img/Background.png);
     background-color: var(--laranja-secundario);
@@ -30,15 +31,7 @@
     right: 30px; /* Alinha à esquerda */
 }
 
-.home-login-principal {
-    background-color: var(--branco);
-    border-radius: 50px;
-    width: 1568px;
-    height: 864px;
-    z-index: 10;
-    box-shadow: var(--shadow-login);
-}
-
+/*PARTE LARANJADA*/
 .home-login-principal-laranja {
     background-image: url(../img/osso.png);
     background-repeat: no-repeat;
@@ -68,4 +61,136 @@
     margin-top: 300px;
     margin-right: 100px;
     margin-left: 100px;
+}
+
+.home-login-odinzinho {
+    width: 342px;
+    height: 355px;
+    position: absolute;
+    top: 580px;
+    left: 500px;
+
+}
+
+
+/* PARTE BRANCA - FORM */
+.home-login-principal {
+    display: flex;
+    background-color: var(--branco);
+    border-radius: 50px;
+    width: 1568px;
+    height: 864px;
+    z-index: 10;
+    box-shadow: var(--shadow-login);
+}
+
+.home-login-principal-branco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+}
+
+.home-login-branco-logo {
+    margin-top: -90px;
+}
+
+.home-login-branco-titulo {
+    font-size: 28px;
+    color: var(--cinza-principal);
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.home-login-form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.home-login-form-label {
+    color: var(--laranja-background);
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.home-login-form input[type="text"],
+.home-login-form input[type="password"] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid var(--cinza-secundario);
+    background: transparent;
+    outline: none;
+    font-size: 18px;
+}
+
+.form-texto-esqueceu-senha {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    padding-left: 395px;
+    font-size: 16px;
+}
+
+form span a {
+    text-decoration: none;
+    color: var(--cinza-principal);
+}
+
+.home-login-form input[type="submit"] {
+    width: 30%;
+    padding: 8px;
+    border-radius: 50px;
+    background-color: var(--laranja-background);
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+.div-ou {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hr {
+    width: 30%;
+    margin: 35px 10px 30px 10px;
+    border-top: 2px solid var(--cinza-secundario);
+}
+
+.ou {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--cinza-principal);
+}
+.form-faca-login {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--laranja-terciario);
+    margin: 10px 0;
+    text-align: center;
+}
+
+.redes-sociais-lista {
+    margin-top: 15px;
+    gap: 3px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.redes-sociais-lista-item {
+    margin: 0 10px;
 }
