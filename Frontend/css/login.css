@@ -1,0 +1,71 @@
+.home-login {
+    background-image: url(../img/Background.png);
+    background-color: var(--laranja-secundario);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    width: 1910px;
+    height: 1024px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.patas-cima {
+    position: absolute; /* Torna a posição absoluta */
+    top: 0; /* Alinha ao topo */
+    left: 0; /* Alinha à esquerda */
+}
+
+.patas-baixo {
+    position: absolute; /* Torna a posição absoluta */
+    bottom: 30px; /* Alinha ao topo */
+    left: 0; /* Alinha à esquerda */
+
+}
+
+.patas-direita {
+    position: absolute; /* Torna a posição absoluta */
+    bottom: 150px; /* Alinha ao topo */
+    right: 30px; /* Alinha à esquerda */
+}
+
+.home-login-principal {
+    background-color: var(--branco);
+    border-radius: 50px;
+    width: 1568px;
+    height: 864px;
+    z-index: 10;
+    box-shadow: var(--shadow-login);
+}
+
+.home-login-principal-laranja {
+    background-image: url(../img/osso.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--laranja-background);
+    flex-wrap: wrap;
+    width: 716px;
+    border-radius: 50px;
+    height: 864px;
+    box-shadow: var(--shadow-login);
+    display: flex;
+}
+
+.home-login-logo {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.home-login-texto {
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--branco);
+    text-align: center;
+    top: 410px;
+    margin-top: 300px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
