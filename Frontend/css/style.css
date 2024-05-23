@@ -3,6 +3,7 @@
 @import url(/Frontend/css/secao-tres.css);
 @import url(/Frontend/css/rodape.css);
 @import url(/Frontend/css/login.css);
+@import url(/Frontend/css/cadastro-pet.css);
 
 * {
     margin: 0;
@@ -13,6 +14,7 @@
     --fonte-principal: 'Roboto Flex', sans-serif;
     --laranja-principal: #EF7D00;
     --laranja-background: #F48E1E;
+    --laranja-background-2: #FDE8D1;
     --laranja-secundario: #FFE6CA;
     --laranja-terciario: #FBCB96;
     --laranja-claro:#FFF9F2;

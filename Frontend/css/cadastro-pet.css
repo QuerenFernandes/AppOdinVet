@@ -1,0 +1,87 @@
+/* GERAL */
+.geral {
+    background-color: var(--laranja-background-2);
+    background-image: url(../img/osso-escuro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1910px;
+    height: 1024px;
+    position: relative;
+}
+
+
+.background-images {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Coloque um z-index menor */
+}
+
+
+.background-images img {
+    position: absolute;
+    z-index: 1;
+}
+
+.pata-maior-um {
+    bottom: 650px;
+    left: 20px;
+}
+
+.patas-cima-cadastro {
+    bottom: 990px;
+    left: 1050px;
+    width: 6%;
+}
+
+.patas-direita-cadastro {
+    bottom: 450px;
+    right: 30px;
+}
+
+.patas-baixo {
+    bottom: 30px;
+    left: 0;
+}
+
+.pata-maior-dois {
+    top: 650px;
+    right: 0;
+}
+
+/* SECAO */
+.secao {
+    background-color: var(--branco);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 1568px;
+    height: 900px;
+    z-index: 10; /* Maior que o z-index das imagens */
+    border-radius: 30px;
+    margin: 129px 171px;
+    position: relative; /* Certifique-se de que .secao é posicionada */
+}
+
+.secao-logo {
+    margin: 20px 10px 750px 400px;
+    align-items: flex-start;
+}
+
+
+.secao-pet-titulo {
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--laranja-principal);
+    margin: 20px 10px 750px 400px;
+    align-items: center;
+}
+
+.secao-pet-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
