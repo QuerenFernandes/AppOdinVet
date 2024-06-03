@@ -4,9 +4,11 @@
     background-image: url(../img/osso-escuro.png);
     background-position: center;
     background-repeat: no-repeat;
-    width: 1910px;
+    width: 100%;
     height: 1024px;
     position: relative;
+    display: flex;
+    box-sizing: border-box; /* Inclui padding e border na largura e altura */
 }
 
 
@@ -58,30 +60,60 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 1568px;
+    width: calc(100% - 342px); /* Ajuste para considerar as margens */
     height: 900px;
     z-index: 10; /* Maior que o z-index das imagens */
     border-radius: 30px;
-    margin: 129px 171px;
-    position: relative; /* Certifique-se de que .secao é posicionada */
+    margin: 129px auto;
+    position: relative; 
+    box-sizing: border-box; /* Inclui padding e border na largura e altura */
+    padding: 20px; 
+}
+
+.secao-um-pet-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -250px;
 }
 
 .secao-logo {
-    margin: 20px 10px 750px 400px;
-    align-items: flex-start;
+    margin-right: 300px; 
+    display: flex;
+    align-items: flex-start;    
 }
-
 
 .secao-pet-titulo {
     font-size: 40px;
     font-weight: 800;
     color: var(--laranja-principal);
-    margin: 20px 10px 750px 400px;
-    align-items: center;
+    margin-right: 500px; 
 }
 
+/* SECAO-PET-MENU */
 .secao-pet-menu {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Ocupa toda a largura do contêiner pai */
+    margin-top: -800px; /* Espaçamento entre o título e o menu */
 }
+
+
+.secao-pet-menu-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.secao-pet-menu hr {
+    width: 3%;
+    border: 1px solid var(--laranja-principal); /* Ajuste a cor do separador conforme necessário */
+    margin: 10px 0 0; /* Espaçamento entre os itens e o separador */
+}
+
+
+
