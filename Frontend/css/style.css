@@ -3,7 +3,7 @@
 @import url(/Frontend/css/secao-tres.css);
 @import url(/Frontend/css/rodape.css);
 @import url(/Frontend/css/login.css);
-@import url(/Frontend/css/cadastro-pet.css);
+@import url(/Frontend/css/cadastro-pet/cadastro-pet.css);
 
 * {
     margin: 0;

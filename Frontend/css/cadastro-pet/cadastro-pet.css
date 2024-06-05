@@ -73,7 +73,7 @@
 }
 
 .secao-logo {
-    margin-right: 300px; 
+    margin-right: 250px; 
     display: flex;
     align-items: flex-start; 
 }
@@ -204,4 +204,17 @@ select {
     position: absolute;
     bottom: 30px; /* Distância do final da div */
     right: 30px;
+}
+
+.secao-dois-pet-form-item {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
+
+.textarea-peso {
+    border-radius: 30px;
+    padding: 10px;
+    width: 119px;
+    height: 67px;
 }
