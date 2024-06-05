@@ -4,13 +4,10 @@
     background-image: url(../img/osso-escuro.png);
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 1910px;
     height: 1024px;
     position: relative;
-    display: flex;
-    box-sizing: border-box; /* Inclui padding e border na largura e altura */
 }
-
 
 .background-images {
     position: absolute;
@@ -20,7 +17,6 @@
     left: 0;
     z-index: 1; /* Coloque um z-index menor */
 }
-
 
 .background-images img {
     position: absolute;
@@ -60,60 +56,152 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: calc(100% - 342px); /* Ajuste para considerar as margens */
+    width: 1550px;
     height: 900px;
     z-index: 10; /* Maior que o z-index das imagens */
     border-radius: 30px;
     margin: 129px auto;
-    position: relative; 
-    box-sizing: border-box; /* Inclui padding e border na largura e altura */
-    padding: 20px; 
+    position: relative; /* Certifique-se de que .secao é posicionada */
 }
 
+/* CABEÇALHO */
 .secao-um-pet-cabecalho {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -250px;
+    margin-top: 20px;
 }
 
 .secao-logo {
     margin-right: 300px; 
     display: flex;
-    align-items: flex-start;    
+    align-items: flex-start; 
 }
 
 .secao-pet-titulo {
     font-size: 40px;
     font-weight: 800;
     color: var(--laranja-principal);
-    margin-right: 500px; 
+    margin: 0 500px 0 100px;  
 }
 
-/* SECAO-PET-MENU */
+/* MENU */
 .secao-pet-menu {
     display: flex;
-    flex-direction:row;
     align-items: center;
     justify-content: center;
     width: 100%; /* Ocupa toda a largura do contêiner pai */
-    margin-top: -800px; /* Espaçamento entre o título e o menu */
+    margin-top: 30px;
 }
-
 
 .secao-pet-menu-item {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-
-.secao-pet-menu hr {
-    width: 3%;
-    border: 1px solid var(--laranja-principal); /* Ajuste a cor do separador conforme necessário */
-    margin: 10px 0 0; /* Espaçamento entre os itens e o separador */
+.secao-pet-menu-item-texto {
+    margin-top: 8px;
+    font-size: 20px;
+    color: var(--cinza-principal);
 }
 
+.secao-pet-menu hr {
+    width: 6%;
+    border: 1px solid var(--marrom-escuro); /* Ajuste a cor do separador conforme necessário */
+    margin-bottom: 30px;
+}
 
+/* SECAO - SEXO */
+.secao-um-pet-sexo {
+    display: flex;
+    gap: 15px;
+    margin-top: 100px;
+    margin-left: 25px;
+}
 
+.secao-um-pet-sexo-texto {
+    font-size: 22px; /* Adicionado px para o valor da fonte */
+    font-weight: bold;
+    color: var(--cinza-principal);
+}
+
+.hidden-input {
+    display: none;
+}
+
+.hidden-input:checked + .icon {
+    cursor: pointer; /* Muda o cursor para indicar interação */
+}
+
+/* SECAO - FORM */
+.secao-um-pet-form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 230px; /* Adicionado padding para espaçamento interno */
+    margin-top: 50px;
+}
+
+.secao-um-pet-form-item-raca {
+    margin-top: 80px;
+}
+
+.secao-um-pet-form-coluna {
+    display: flex;
+    flex-direction: column;
+    width: 45%; /* Ajusta a largura das colunas */
+}
+
+.secao-um-pet-form-label {
+    font-size: 20px; /* Adicionado px para o valor da fonte */
+    font-weight: 800;
+    color: var(--cinza-principal);
+}
+
+.secao-um-pet-form-input, .secao-um-pet-form-select {
+    display: flex;
+    border-radius: 30px;
+    border: 2px solid var(--cinza-secundario);
+    padding: 22px;
+    margin: 10px 0 20px 0;
+    width: 350px;
+    box-sizing: border-box; /* Inclui padding e border no tamanho total */
+}
+
+.secao-um-pet-form-input:focus, .secao-um-pet-form-select:focus {
+    border: 2px solid var(--cinza-secundario);
+    box-shadow: var(--shadow-hover);
+    outline: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('../img/select.png');
+    background-repeat: no-repeat;
+    background-position: 90% 65%; ;
+    
+  }
+
+.secao-um-pet-form-img {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 15%;
+}
+
+.img-add {
+    width: 5%;
+    margin: -70px 0 200px 370px;
+}
+
+.img-next {
+    position: absolute;
+    bottom: 30px; /* Distância do final da div */
+    right: 30px;
+}

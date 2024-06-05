@@ -29,53 +29,80 @@
             </div>
             
             <div class="secao-pet-menu">
-                <div class="">
+                <div class="secao-pet-menu-item">
                     <a href="#secao-um-pet"><img src="../img/1.png" alt="Número 1 dentro de um círculo"></a> 
-                    <span>Dados Iniciais</span>
+                    <span class="secao-pet-menu-item-texto">Dados Iniciais</span>
                 </div>
                 <hr>
                 <div class="secao-pet-menu-item">
                     <a href="#secao-dois-pet"><img src="../img/2.png" alt="Número 2 dentro de um círculo"></a> 
-                    <span>Histórico do Pet</span>
+                    <span class="secao-pet-menu-item-texto">Histórico do Pet</span>
                 </div>
                 <hr>
                 <div class="secao-pet-menu-item">
                    <a href="#secao-tres-pet"><img src="../img/3.png" alt="Número 3 dentro de um círculo"></a> 
-                    <span>Confirmação</span>
+                    <span class="secao-pet-menu-item-texto">Confirmação</span>
                 </div>
             </div>
 
-
-            <!-- SECAO UM 
             <div class="secao-um-pet-sexo">
-                <h4>Selecione o sexo do seu bichinho:</h4>
-                <img src="../img/macho.png" alt="Ícone do sexo masculino">
-                <img src="../img/femea.png" alt="Ícone do sexo feminino">
+                <h4 class="secao-um-pet-sexo-texto">Selecione o sexo do seu bichinho:</h4>
+                <label>
+                    <input type="radio" name="sexo" value="macho" class="hidden-input">
+                    <img src="../img/macho.png" alt="Ícone do sexo masculino" class="icon femea" id="macho-icon">
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="femea" class="hidden-input">
+                    <img src="../img/femea.png" alt="Ícone do sexo feminino" class="icon" id="femea-icon">
+                </label>
             </div>
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome">
-            <img src="../img/Foto.png" alt="ìcone de uma câmera dentro de um circulo">
-            <span>Adicione uma foto do seu Pet</span>
-            <label for="dt-nascimento">Data de Nascimento:</label>
-            <input type="date" name="dt-nascimento" id="dt-nascimento">
-            <label for="animal">Animal:</label>
-            <select id="animal" name="animal">
-                <option value="animais selvagens">Animais Selvagens</option>
-                <option value="cachorro">Cachorro</option>
-                <option value="gato">Gato</option>
-            </select>
-            <label for="raca">Raça:</label>
-            <select id="raca" name="raca">
-                <option value="Border Colie">Border Colie</option>
-                <option value="Husky Siberiano">Husky Siberiano</option>
-                <option value="Pastor Alemao">Pastor Alemao</option>
-            </select>
-            <img src="../img/ícone add.png" alt="Ícone de adicionar">
-            <div>
-                <img src="../img/next.png" alt="Ícone de next">
+           
+            <div class="secao-um-pet-form">
+                <div class="secao-um-pet-form-coluna">
+                    <div class="secao-um-pet-form-item">
+                        <label class="secao-um-pet-form-label" for="nome">Nome:</label>
+                        <input class="secao-um-pet-form-input" type="text" name="nome" id="nome">
+                    </div>
+                    <div class="secao-um-pet-form-item">
+                        <label class="secao-um-pet-form-label" for="dt-nascimento">Data de Nascimento:</label>
+                        <input class="secao-um-pet-form-input" type="date" name="dt-nascimento" id="dt-nascimento">
+                    </div>
+                    <div class="secao-um-pet-form-item">
+                        <label class="secao-um-pet-form-label" for="animal">Animal:</label>
+                        <select class="secao-um-pet-form-select" id="animal" name="animal">
+                            <option value="" disabled selected>Selecione um animal</option>
+                            <option value="animais selvagens">Animais Selvagens</option>
+                            <option value="cachorro">Cachorro</option>
+                            <option value="gato">Gato</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="secao-um-pet-form-coluna">
+                    <div class="secao-um-pet-form-item">
+                        <img class="secao-um-pet-form-img" src="../img/Foto.png" alt="ìcone de uma câmera dentro de um circulo">
+                        <span class="secao-um-pet-form-label">Adicione uma foto do seu Pet</span>
+                    </div>
+                    <div class="secao-um-pet-form-item-raca">
+                        <label class="secao-um-pet-form-label" for="raca">Raça:</label>
+                        <select class="secao-um-pet-form-select" id="raca" name="raca">
+                            <option value="" disabled selected>Selecione a raça</option>
+                            <option value="Border Colie">Border Colie</option>
+                            <option value="Husky Siberiano">Husky Siberiano</option>
+                            <option value="Pastor Alemao">Pastor Alemao</option>
+                        </select>
+                        <img class="img-add" src="../img/ícone add.png" alt="Ícone de adicionar">
+                    </div>
+                    
+                </div>
             </div>
-            --> 
+
+            <div class="secao-um-pet-form">
+                <a href="#secao-dois-pet"></a><img class="img-next" src="../img/next.png" alt="Ícone de next">
+            </div>
         </section>
     </form>
+
+    <script src="../js/cadastro-pet.js"></script>
 </body>
 </html>
