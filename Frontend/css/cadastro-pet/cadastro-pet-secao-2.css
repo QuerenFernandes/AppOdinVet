@@ -1,0 +1,65 @@
+.secao-dois-pet-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.secao-dois-pet-form-item {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.opcao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.textarea-peso {
+    border-radius: 30px;
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.textarea-obs {
+    border-radius: 30px;
+    padding:90px;
+    width: 300px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.secao-dois-pet-form {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 50px 100px 20px 80px;
+}
+
+/* Estilo para transformar os inputs radio em quadrados */
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #ccc;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para o estado selecionado dos inputs radio */
+input[type="radio"]:checked {
+    background-color: var(--laranja-principal);
+    border: none;
+}
+

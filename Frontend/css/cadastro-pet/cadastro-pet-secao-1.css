@@ -171,7 +171,7 @@
     box-sizing: border-box; /* Inclui padding e border no tamanho total */
 }
 
-.secao-um-pet-form-input:focus, .secao-um-pet-form-select:focus {
+.secao-um-pet-form-input:focus, .secao-um-pet-form-select:focus, .textarea-peso:focus, .textarea-obs:focus {
     border: 2px solid var(--cinza-secundario);
     box-shadow: var(--shadow-hover);
     outline: none;
@@ -206,15 +206,9 @@ select {
     right: 30px;
 }
 
-.secao-dois-pet-form-item {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 80%;
+.img-previous {
+    position: absolute;
+    bottom: 30px; /* Distância do final da div */
+    left: 30px;
 }
 
-.textarea-peso {
-    border-radius: 30px;
-    padding: 10px;
-    width: 119px;
-    height: 67px;
-}

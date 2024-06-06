@@ -1,0 +1,37 @@
+.secao-tres-pet {
+    background-color: var(--branco);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 1550px;
+    height: 600px;
+    z-index: 10; /* Maior que o z-index das imagens */
+    border-radius: 30px;
+    margin: 129px auto;
+    position: relative; /* Certifique-se de que .secao é posicionada */
+}
+
+.botao-1, .botao-2 {
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    width: 300px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.botao-1 {
+    background-color: var(--laranja-principal);
+    color: var(--branco);
+    border: none;
+    margin-right: 100px;
+}
+
+.botao-2 {
+    background-color: var(--branco);
+    color: var(--cinza-principal);
+    border: 1px solid var(--cinza-principal);
+    
+}
