@@ -143,6 +143,11 @@ a {
 }
 
 /*BOTÕES*/
+.botoes {
+    margin: -60px 0 30px 0;
+
+}
+
 .botao {
     border-radius: 20px;
     border: none;
@@ -150,19 +155,18 @@ a {
     font-size: 22px;
     padding: 15px;
     margin: -80px 0 10px 0;
+    cursor: pointer;
+    width: 300px;
 }
 
 .main-botao-1 {
     color: var(--cinza-principal);
     background-color: var(--laranja-terciario) ;
-    margin: 0 40px 0 400px;
-    width: 300px;
 }
 
 .main-botao-2 {
     color: var(--laranja-terciario);
     background-color: var(--marrom-escuro) ;   
-    width: 300px;
 }
 
 /*CARDS*/

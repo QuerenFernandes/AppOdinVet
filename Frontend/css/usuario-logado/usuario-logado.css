@@ -1,0 +1,143 @@
+/*GERAL*/
+
+
+.pata-maior-um-logado {
+    position: absolute;
+    bottom: -580px;
+    left: 20px;
+    z-index: 1;
+}
+
+.patas-cima-cadastro-logado {
+    position: absolute;
+    right: 780px;
+    width: 6%;
+}
+
+.patas-direita-cadastro-logado {
+    position: absolute;
+    right: 30px;
+    bottom: -550px;
+}
+
+.pata-maior-dois-logado {
+    position: absolute;
+    bottom: -1100px;
+    right: 30px;
+}
+
+.patas-esquerda-logado {
+    position: absolute;
+    bottom: -1100px;
+    left: 60px;
+}
+
+/*MENU*/
+
+.logado {
+    display: flex;
+    flex-direction: row;
+    margin-left: 130px;
+}
+
+.sino-notificacao {
+    margin-top: 25px;
+    margin-right: -50px;
+}
+
+.main-texto-logado {
+    font-size: 22px;
+    color: var(--cinza-principal);
+    margin: -250px 850px 0 0;
+    flex-wrap: wrap;
+    width: 480px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+/*SEÇÃO 2*/
+
+.secao-dois-logado {
+    background-color: var(--laranja-secundario);
+    background-image: url(../../img/osso\ -\ dois.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1910px;
+    height: 1024px;
+}
+
+.secao-dois-logado-area {
+    position: relative;
+    z-index: 1;
+    margin-left: 40px;
+    margin-right: 80px;
+}
+
+
+/*SEÇÃO 2 - PARTE 1*/
+.secao-logado-pt1 {
+    padding-top: 30px;
+}
+
+ul li {
+    list-style: none;
+    margin: 30px 50px; 
+}
+
+.menu-esquerdo {
+    margin-top: -60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.botao-add {
+    background-color: var(--laranja-terciario);
+    color: var(--cinza-principal);
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 30px;
+    border-radius: 80px;
+    cursor: pointer;
+}
+
+.menu-texto {
+   color: var(--cinza-principal);
+   font-size: 18px;
+   font-weight: bold;
+   text-decoration: underline;
+   margin-top: 20px;
+   margin-right: 30px;
+}
+
+/*SEÇÃO 2 - PARTE 2 E 3*/
+
+.pt-2 {
+    background-color: var(--branco);
+    border-radius: 40px;
+}
+
+.secao-logado-pt2 {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pt2-card-1 {
+    width: 360px;
+    height: 289px;
+}
+
+.pt2-card-2 {
+    width: 590px;
+    height: 290px;
+}
+
+.pt2-card-3 {
+    width: 380px;
+    height: 282px;
+}
