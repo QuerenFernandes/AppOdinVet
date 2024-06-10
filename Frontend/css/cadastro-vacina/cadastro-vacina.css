@@ -1,0 +1,62 @@
+.secao-vacina {
+    background-color: var(--branco);
+    max-width: 1450px;
+    z-index: 10;
+    border-radius: 30px;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+.secao-vacina-form {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 350px;
+    margin-right: 150px;
+}
+
+.secao-nome {
+    width: 100%;
+}
+
+.secao-nome input {
+    width: 800px;
+}
+
+.secao-itens {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.secao-vacina-form-label {
+    font-size: 20px; /* Adicionado px para o valor da fonte */
+    font-weight: 800;
+    color: var(--cinza-principal);
+}
+
+.secao-vacina-form-input {
+    display: flex;
+    border-radius: 30px;
+    border: 2px solid var(--cinza-secundario);
+    padding: 22px;
+    margin: 10px 0 20px 0;
+    width: 350px;
+    box-sizing: border-box;
+}
+
+.secao-vacina-form-input:focus {
+    border: 2px solid var(--cinza-secundario);
+    box-shadow: var(--shadow-hover);
+    outline: none;
+}
+
+.botao {
+    margin-left: 250px;
+}

@@ -6,6 +6,7 @@
 @import url(/Frontend/css/cadastro-pet/cadastro-pet-secao-1.css);
 @import url(/Frontend/css/cadastro-pet/cadastro-pet-secao-2.css);
 @import url(/Frontend/css/cadastro-pet/cadastro-pet-secao-3.css);
+@import url(/Frontend/css/cadastro-vacina/cadastro-vacina.css);
 
 * {
     margin: 0;
