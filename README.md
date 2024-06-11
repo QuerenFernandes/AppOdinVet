@@ -47,7 +47,7 @@
  
 Login | Página Inicial | Dados dos Pets | Agendamento |
 |---|---|---|---|
-![Login](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/e39ca1d2-2949-4ad1-b186-a04fccaac44a) | ![Página Inicial](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/f8f3cd43-9bc7-4255-b67f-0ca091d82098)| ![Pets](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/cf878e36-71f0-48fc-9f1a-2a96990f32bf)| ![Agendamento](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/9a7076b9-464b-49a3-95bc-8b953ffe7062)
+![Login](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/969b274a-179d-4e14-a034-fa5c35bb19a0) | ![Página Inicial](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/f8f3cd43-9bc7-4255-b67f-0ca091d82098)| ![Pets](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/cf878e36-71f0-48fc-9f1a-2a96990f32bf)| ![Agendamento](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/9a7076b9-464b-49a3-95bc-8b953ffe7062)
 
 ##
 
@@ -60,6 +60,7 @@ Cadastro Pt.1 | Cadastro Pt.2 | Cadastro Pt.3 |
 Logo Definida | Cores Utilizadas | Fontes Utilizadas |
 |---|---|---|
 ![Logo](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/81208696-8f81-4289-aaa7-53991ba02687)| ![Cores](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/0d9dc022-ca6f-4a3b-949e-5d3c11f19926)| ![Fontes](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/eaf57153-3e98-4099-ba06-a42bca2c6bce)
+
 
 
 
