@@ -44,7 +44,7 @@
 
 Login | Página Inicial | Dados dos Pets | Agendamento |
 |---|---|---|---|
-![Login](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/969b274a-179d-4e14-a034-fa5c35bb19a0)| ![Página Inicial](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/f8f3cd43-9bc7-4255-b67f-0ca091d82098) | ![Pets](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/cf878e36-71f0-48fc-9f1a-2a96990f32bf)| ![Agendamento](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/9a7076b9-464b-49a3-95bc-8b953ffe7062)
+![Login](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/969b274a-179d-4e14-a034-fa5c35bb19a0)| ![Página Inicial](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/addd291f-3a35-4a27-baa1-04f6a1f216e4) | ![Pets](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/cf878e36-71f0-48fc-9f1a-2a96990f32bf)| ![Agendamento](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/9a7076b9-464b-49a3-95bc-8b953ffe7062)
 
 ##
 
@@ -66,6 +66,9 @@ Logo Definida | Cores Utilizadas | Fontes Utilizadas |
 Diagrama DER - Modelo Conceitual | Diagrama DER - Modelo Lógico|
 |---|---|
 ![der](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/5ea4243f-0b33-4bcd-9086-e5290c2fa2f7)| :construction: Em construção...  :construction: | 
+
+
+
 
 
 
