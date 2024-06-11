@@ -59,8 +59,8 @@ Cadastro Pt.1 | Cadastro Pt.2 | Cadastro Pt.3 |
 
 Logo Definida | Cores Utilizadas | Fontes Utilizadas |
 |---|---|---|
-![Logo](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/81208696-8f81-4289-aaa7-53991ba02687)| ![Cores](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/0d9dc022-ca6f-4a3b-949e-5d3c11f19926)| ![Fontes](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/6c8f6e49-a85c-48a9-8da5-d42bd5c85cd9)
-  
+![Logo](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/81208696-8f81-4289-aaa7-53991ba02687)| ![Cores](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/0d9dc022-ca6f-4a3b-949e-5d3c11f19926)| ![Fontes](https://github.com/QuerenFernandes/AppOdinVet/assets/95857175/eaf57153-3e98-4099-ba06-a42bca2c6bce)
+
 
 
 
