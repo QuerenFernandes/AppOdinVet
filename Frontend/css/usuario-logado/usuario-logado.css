@@ -118,6 +118,10 @@ ul li {
 .pt-2 {
     background-color: var(--branco);
     border-radius: 40px;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .secao-logado-pt2 {
@@ -127,15 +131,69 @@ ul li {
     justify-content: center;
 }
 
+/*CARD - 1*/
 .pt2-card-1 {
     width: 360px;
     height: 289px;
 }
 
+.pt2-titulo {
+    color: var(--cinza-principal);
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.pt2-texto {
+    color: var(--cinza-principal);
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.pt2-texto2 {
+    color: var(--laranja-background);
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.pt2-img {
+    margin-top: -40px;
+    margin-left:100px ;
+    padding: 2px;
+}
+
+.pt2-img2 {
+    margin-top: -50px;
+    margin-left: 210px;   
+}
+
+.pt2-img-odin {
+    position: relative;
+    margin-left: 180px;
+    margin-top: -40px;
+}
+
+.pt2-ver-todos {
+    color: var(--cinza-principal);
+    font-size: 18px;
+    font-weight: 200;
+}
+
+/*CARD - 2*/
 .pt2-card-2 {
     width: 590px;
     height: 290px;
+    
 }
+
+
+
 
 .pt2-card-3 {
     width: 380px;
