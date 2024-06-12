@@ -118,6 +118,7 @@ ul li {
 .pt-2 {
     background-color: var(--branco);
     border-radius: 40px;
+    box-shadow: var(--shadow);
     /*
     display: flex;
     flex-direction: column;
@@ -125,12 +126,17 @@ ul li {
     */
 }
 
-.secao-logado-pt2 {
+
+.secao-logado-pt2, .secao-logado-pt3  {
     display: flex;
-    gap: 200px;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
+.secao-logado-pt2 {
+    gap: 200px;
+}
+
 
 /*CARD - 1*/
 .pt2-card-1 {
@@ -138,26 +144,26 @@ ul li {
     height: 289px;
 }
 
-.pt2-titulo, .pt2-texto {
+.pt2-titulo, .pt2-texto, .pt2-texto-card3 {
     color: var(--cinza-principal);
     font-weight: 700;
+    font-size: 20px;
 }
 
 .pt2-titulo {
     font-size: 30px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 20px;
 }
 
 .pt2-texto {
-    font-size: 20px;
     display: flex;
     padding: 10px;
     margin-top: 30px;
     margin-left: 10px;
 }
 
-.pt2-texto2 {
+.pt2-texto2, .pt2-texto2-card3 {
     color: var(--laranja-background);
     font-size: 20px;
     font-weight: 700;
@@ -179,6 +185,10 @@ ul li {
     position: relative;
     margin-left: 180px;
     margin-top: -40px;
+}
+
+.pipe {
+    color: var(--laranja-principal);
 }
 
 /*CARD - 2*/
@@ -240,7 +250,7 @@ ul li {
 .pt2-item {
     display: flex;
     flex-direction: row;
-    margin-top: 12px;
+    margin-top: 22px;
     
 }
 
@@ -256,4 +266,113 @@ ul li {
 .pt2-card-3 {
     width: 380px;
     height: 282px;
+}
+
+.pt2-itens-card3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.pt2-item-card3 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.n {
+    margin-left: 15px;
+}
+
+.m {
+    margin-left: -5px;
+}
+
+.pt2-texto2-card3 {
+    margin-bottom: 30px;
+    
+}
+
+/*SEÇÃO 3 */
+
+.secao-logado-pt3 {
+    gap: 150px;
+}
+
+.pt3-card-pt3 {
+    width: 502px;
+    height: 430px;
+}
+
+.pt2-add-img-pt3 {
+    margin-left: 440px;
+    margin-top: -500px;
+}
+
+.menu-lista-pt3 {
+    display: flex;
+}
+
+.pt3-card-pt3-itens {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    gap: 10px;
+}
+
+.pt3-card-pt3-item {
+    margin-left: 20px;
+}
+
+.pt3-texto {
+    font-weight: 500;
+}
+.pt3-texto, .pt3-texto-2 {
+    color: var(--cinza-secundario);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.pt3-texto-2 {
+    font-weight: 300;
+    margin-left: 90px;
+}
+
+.card-pt3 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.img-vacina {
+    padding: 10px;
+}
+
+.pt3-texto-titulo {
+    font-size: 25px;
+    color: var(--cinza-principal);
+    font-weight: 600;
+}
+
+.botao-card-3 {
+    padding: 30px;
+    background-color: var(--branco);
+    color: var(--laranja-principal);
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    border-radius: 35px;
+    width: 500px;
+    box-shadow: var(--shadow);
+    margin-left: -20px;
+
+}
+
+.card3-pt3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
 }
