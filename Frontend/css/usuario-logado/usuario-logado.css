@@ -1,39 +1,39 @@
 /*GERAL*/
 
+.pata-maior-um-logado, .patas-cima-cadastro-logado,
+.patas-direita-cadastro-logado,  .pata-maior-dois-logado , .patas-esquerda-logado {
+    position: absolute;
+}
+
+.patas-direita-cadastro-logado, .pata-maior-dois-logado {
+    right: 30px;
+}
 
 .pata-maior-um-logado {
-    position: absolute;
     bottom: -580px;
     left: 20px;
     z-index: 1;
 }
 
 .patas-cima-cadastro-logado {
-    position: absolute;
     right: 780px;
     width: 6%;
 }
 
 .patas-direita-cadastro-logado {
-    position: absolute;
-    right: 30px;
     bottom: -550px;
 }
 
 .pata-maior-dois-logado {
-    position: absolute;
     bottom: -1100px;
-    right: 30px;
 }
 
 .patas-esquerda-logado {
-    position: absolute;
     bottom: -1100px;
     left: 60px;
 }
 
 /*MENU*/
-
 .logado {
     display: flex;
     flex-direction: row;
@@ -118,10 +118,11 @@ ul li {
 .pt-2 {
     background-color: var(--branco);
     border-radius: 40px;
-    
+    /*
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    */
 }
 
 .secao-logado-pt2 {
@@ -137,18 +138,19 @@ ul li {
     height: 289px;
 }
 
-.pt2-titulo {
+.pt2-titulo, .pt2-texto {
     color: var(--cinza-principal);
-    font-size: 30px;
     font-weight: 700;
+}
+
+.pt2-titulo {
+    font-size: 30px;
     margin-top: 40px;
     margin-left: 20px;
 }
 
 .pt2-texto {
-    color: var(--cinza-principal);
     font-size: 20px;
-    font-weight: 700;
     display: flex;
     padding: 10px;
     margin-top: 30px;
@@ -179,22 +181,78 @@ ul li {
     margin-top: -40px;
 }
 
-.pt2-ver-todos {
-    color: var(--cinza-principal);
-    font-size: 18px;
-    font-weight: 200;
-}
-
 /*CARD - 2*/
 .pt2-card-2 {
     width: 590px;
     height: 290px;
-    
+}
+
+.ver-todos {
+    display: flex;
+    margin-top: -25px;
+    margin-left: 440px;
+    gap: 20px;
 }
 
 
+.pt2-ver-todos {
+    color: var(--cinza-principal);
+    font-size: 18px;
+    font-weight: 200;
+    
+}
+
+.pt2-texto-card2, .pt2-texto-card2-dt, 
+.pt2-texto-card2-dt-2, .pt2-texto-card2-dt-3 {
+    color: var(--cinza-principal);
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+}
+
+.pt2-texto-card2 {
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.pt2-texto-card2-dt {
+    margin-left: 200px;
+}
+
+.pt2-texto-card2-dt-2 {
+    margin-left: 220px;
+}
+
+.pt2-texto-card2-dt-3 {
+    margin-left: 265px;
+}
 
 
+.pt2-itens {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    
+}
+
+.pt2-item {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    
+}
+
+.pt2-add-img {
+    margin-top: -10px;
+}
+
+.img-download {
+    margin-left: 20px;
+
+}
+/*CARD - 3*/
 .pt2-card-3 {
     width: 380px;
     height: 282px;
