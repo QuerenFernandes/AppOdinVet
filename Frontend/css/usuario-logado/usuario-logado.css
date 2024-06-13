@@ -30,7 +30,7 @@
 
 .patas-esquerda-logado {
     bottom: -1100px;
-    left: 60px;
+    left: 15px;
 }
 
 /*MENU*/
@@ -376,6 +376,160 @@ ul li {
     width: 500px;
     box-shadow: var(--shadow);
 }
-
-
 /*SEÇÃO 3*/
+.secao-tres-logado {
+    background-color: var(--laranja-secundario);
+    background-image: url(../../img/Background\ Pata\ Clara.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    width: 1910px;
+    height: 1024px;
+}
+
+.patas-cima-secao-3 {
+    position: absolute;
+    right: 80px;
+    width: 4%;
+}
+
+.secao-tres-logado-lados {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px 0 100px;
+}
+
+/*LADO ESQUERDO*/
+.secao3-titulo {
+    position: relative;
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--laranja-principal);
+    text-align: center;
+    padding-top: 80px;
+}
+
+.secao-um-pet-form-label {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--cinza-principal);
+}
+
+.secao-tres-select {
+    box-shadow: var(--shadow);
+}
+
+.secao3-dados-prof {
+    width: 597px;
+    height: 253px;
+    background-color: var(--branco);
+    display: flex;
+    border-radius: 30px;
+    box-shadow: var(--shadow);
+}
+
+.dados-prof {
+    margin-left: 20px;
+}
+
+.titulo-prof {
+    font-size: 35px;
+    font-weight: 800;
+    color: var(--cinza-principal);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.secao-tres-cards {
+    display: flex;
+    gap: 10px;
+}
+
+.prof-info {
+    background-color: var(--laranja-principal);
+    border-radius: 95px;
+    width: 159px;
+    height: 70px;
+    box-shadow: var(--shadow);
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.prof-texto {
+    color: var(--branco);
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.noemy {
+    margin-left: 30px;
+    margin-top: 18px;
+}
+
+.secao3-suporte {
+    background-color: var(--branco);
+    width: 330px;
+    height: 100px;
+    border-radius: 30px;
+    box-shadow: var(--shadow);
+    display: flex;
+    padding: 20px;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.titulo-suporte {
+    font-size: 25px;
+    color: var(--cinza-principal);
+    font-weight: 200;
+}
+
+.wpp-suporte {
+    margin-top: 30px;
+    margin-bottom: -15px;
+}
+
+/*LADO DIREITO*/
+.secao-tres-lado-direito {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.secao3-calendario,
+.secao3-horarios {
+    background-color: var(--branco);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    width: 300px;
+    text-align: center;
+}
+
+.secao3-calendario span,
+.secao3-horarios span {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cinza-principal);
+}
+
+.secao-tres-lado-direito p {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza-principal);
+}
+
+.secao-tres-lado-direito button {
+    background-color: var(--laranja-principal);
+    color: var(--branco);
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+}

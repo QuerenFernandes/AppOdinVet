@@ -12,13 +12,7 @@
     margin-left: 35px;
 }
 
-.secao-dois-titulo {
-    position: relative;
-    font-size: 45px;
-    font-weight: 400;
-    color: var(--cinza-principal);
-    text-align: right;
-    margin: -100px 92.5px 0 490px;
+.secao-dois-titulo, .secao3-titulo {
     text-shadow: 
     8px 0 0 var(--branco),
     -8px 0 0 var(--branco),
@@ -84,6 +78,16 @@
     -1px 1px 0 var(--branco),
     1px -1px 0 var(--branco),
     -1px -1px 0 var(--branco);
+
+}
+
+.secao-dois-titulo {
+    position: relative;
+    font-size: 45px;
+    font-weight: 400;
+    color: var(--cinza-principal);
+    text-align: right;
+    margin: -100px 92.5px 0 490px;
 }
 
 .secao-dois-titulo-laranja {
