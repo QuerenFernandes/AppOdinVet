@@ -301,11 +301,6 @@ ul li {
     gap: 150px;
 }
 
-.pt3-card-pt3 {
-    width: 502px;
-    height: 430px;
-}
-
 .pt2-add-img-pt3 {
     margin-left: 440px;
     margin-top: -500px;
@@ -324,36 +319,50 @@ ul li {
 
 .pt3-card-pt3-item {
     margin-left: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .pt3-texto {
-    font-weight: 500;
-}
-.pt3-texto, .pt3-texto-2 {
     color: var(--cinza-secundario);
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .pt3-texto-2 {
-    font-weight: 300;
-    margin-left: 90px;
+    color: var(--cinza-secundario);
+    font-size: 20px;
+    font-weight: 300;  
+    margin-left: 20px;  
+}
+
+.pt3-card-pt3 {
+    width: 502px;
+    height: 430px;
 }
 
 .card-pt3 {
     margin-top: 20px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
 }
 
 .img-vacina {
-    padding: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .pt3-texto-titulo {
     font-size: 25px;
     color: var(--cinza-principal);
     font-weight: 600;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: center;    
 }
 
 .botao-card-3 {
@@ -366,13 +375,7 @@ ul li {
     border-radius: 35px;
     width: 500px;
     box-shadow: var(--shadow);
-    margin-left: -20px;
-
 }
 
-.card3-pt3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center
-}
+
+/*SEÇÃO 3*/
