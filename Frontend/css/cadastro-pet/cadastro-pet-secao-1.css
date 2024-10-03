@@ -1,4 +1,6 @@
 /* GERAL */
+
+
 .geral {
     background-color: var(--laranja-background-2);
     background-image: url(../img/osso-escuro.png);
@@ -91,9 +93,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%; /* Ocupa toda a largura do contêiner pai */
-    margin-top: 30px;
+    width: 50%; /* Ocupa toda a largura do contêiner pai */
 }
+
 
 .secao-pet-menu-item {
     display: flex;
@@ -118,9 +120,11 @@
 /* SECAO - SEXO */
 .secao-um-pet-sexo {
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
-    margin-top: 100px;
-    margin-left: 25px;
+   margin-left: 300px;
+   margin-top: 100px;
+   margin-right: 300px;
 }
 
 .secao-um-pet-sexo-texto {
@@ -166,7 +170,7 @@
     display: flex;
     border-radius: 30px;
     border: 2px solid var(--cinza-secundario);
-    color: var(--laranja-principal);
+    color: var(--cinza-principal);
     font-size: 18px;
     padding: 22px;
     margin: 10px 0 20px 0;

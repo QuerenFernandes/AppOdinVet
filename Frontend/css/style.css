@@ -1,13 +1,14 @@
-@import url(/Frontend/css/home.css);
-@import url(/Frontend/css/secao-dois.css);
-@import url(/Frontend/css/secao-tres.css);
-@import url(/Frontend/css/rodape.css);
-@import url(/Frontend/css/login.css);
-@import url(/Frontend/css/cadastro-pet/cadastro-pet-secao-1.css);
-@import url(/Frontend/css/cadastro-pet/cadastro-pet-secao-2.css);
-@import url(/Frontend/css/cadastro-pet/cadastro-pet-secao-3.css);
-@import url(/Frontend/css/cadastro-vacina/cadastro-vacina.css);
-@import url(/Frontend/css/usuario-logado/usuario-logado.css);
+@import url(./home.css);
+@import url(./secao-dois.css);
+@import url(./secao-tres.css);
+@import url(./login.css);
+@import url(./cadastro-pet/cadastro-pet-secao-1.css);
+@import url(./cadastro-pet/cadastro-pet-secao-2.css);
+@import url(./cadastro-pet/cadastro-pet-secao-3.css);
+@import url(./cadastro-vacina/cadastro-vacina.css);;
+@import url(./usuario-logado/usuario-logado.css);
+
+
 * {
     margin: 0;
     padding: 0;
