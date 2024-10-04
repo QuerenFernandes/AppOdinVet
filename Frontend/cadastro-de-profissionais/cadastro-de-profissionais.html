@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Cadastro de Profissionais</title>
+</head>
+<body class="geral">
+
+    <div class="background-images">
+        <img class="pata-maior-um" src="../img/Background Pata 2.png" alt="Imagem de patas de animais">
+        <img class="patas-cima-cadastro" src="../img/Patas-cadastro-cima.png" alt="Imagem de patas de animais">
+        <img class="patas-direita-cadastro" src="../img/Patas-cadastro-direita.png" alt="Imagem de patas de animais">
+        <img class="patas-baixo" src="../img/Patas-login-baixo.png" alt="Imagem de patas de animais">
+        <img class="pata-maior-dois" src="../img/Background Pata 2.2.png" alt="Imagem de patas de animais">
+    </div>
+
+    <form class="form" action="">
+        
+        <!-- SECAO UM -->
+        <section class="secao-profissionais secao" id="secao-profissionais">
+
+            <div class="secao-um-pet-cabecalho">
+                <img class="secao-logo" src="../img/Logo Odin Vet.png" alt="Logo da empresa Odin Vet">
+                <h2 class="secao-pet-titulo">Cadastre um novo profissional</h2>
+            </div>
+
+                    
+            <div class="secao-um-pet-form">
+
+                    <div class="secao-profissionais-itens-form">
+
+                        <div class="secao-um-pet-form-item nome">
+                            <label class="secao-um-pet-form-label" for="nome">Nome:</label>
+                            <input class="secao-um-pet-form-input input-nome" type="text" name="nome" id="nome">
+                        </div>
+
+                        <div class="secao-um-pet-form-item email">
+                            <label class="secao-um-pet-form-label" for="email">Email:</label>
+                            <input class="secao-um-pet-form-input input-email" type="text" name="email" id="email">
+                        </div>
+                    </div>
+                
+                    
+                    <div class="secao-profissionais-itens-form">
+
+                        <div class="secao-um-pet-form-item telefone">
+                            <label class="secao-um-pet-form-label" for="telefone">Telefone:</label>
+                            <input class="secao-um-pet-form-input input-telefone" type="text" name="telefone" id="telefone">
+                        </div>
+                        
+                        <div class="secao-um-pet-form-item especialidade">
+
+                            <label class="secao-um-pet-form-label" for="especialidade">Especialidade:</label>
+                            <select class="secao-um-pet-form-select" id="especialidade" name="especialidade">
+                                <option value="" disabled selected>Selecione uma especialidade</option>
+                                <option value="cardiologia">Cardiologia</option>
+                                <option value="cirurgia">Cirurgia</option>
+                                <option value="dermatologia">Dermatologia</option>
+                                <option value="madicinaDeAnimaisSelvagens">Medicina de Animais Selvagens</option>
+                                <option value="dayCare">Day Care</option>
+                            </select>
+                        </div>
+    
+                        <div class="secao-um-pet-form-item crmv">
+                            <label class="secao-um-pet-form-label" for="crmv">CRMV:</label>
+                            <input class="secao-um-pet-form-input input-crmv" type="text" name="crmv" id="crmv">
+                        </div>
+                    </div>
+                                     
+
+                    <div class="secao-um-pet-form-item endereco">
+                                              
+                            <label class="secao-um-pet-form-label label-logradouro" for="logradouro"></label>
+                            <input class="secao-um-pet-form-input input-logradouro" type="text" name="logradouro" id="logradouro" placeholder="Logradouro">
+
+                            <label class="secao-um-pet-form-label label-bairro" for="bairro"></label>
+                            <input class="secao-um-pet-form-input input-bairro" type="text" name="bairro" id="bairro" placeholder="Bairro">
+
+                            <label class="secao-um-pet-form-label" for="numero"></label>
+                            <input class="secao-um-pet-form-input input-numero" type="text" name="numero" id="numero" placeholder="nº">
+
+                            <label class="secao-um-pet-form-label" for="complemento"></label>
+                            <input class="secao-um-pet-form-input input-complemento" type="text" name="complemento" id="complemento" placeholder="Complemento">
+
+                            <label class="secao-um-pet-form-label" for="cep"></label>
+                            <input class="secao-um-pet-form-input input-cep" type="text" name="cep" id="cep" placeholder="Cep">
+
+                            <label class="secao-um-pet-form-label" for="cidade"></label>
+                            <input class="secao-um-pet-form-input input-cidade" type="text" name="cidade" id="cidade" placeholder="Cidade">
+
+                            <label class="secao-um-pet-form-label" for="estado"></label>
+                            <input class="secao-um-pet-form-input input-estado" type="text" name="estado" id="estado" placeholder="Estado">
+                            
+                    </div>
+
+                <div class="secao-um-pet-form-coluna">
+                    <div class="secao-um-pet-form-item">
+                        <img class="secao-um-pet-form-img" src="../img/Foto.png" alt="ìcone de uma câmera dentro de um circulo">
+                        <span class="secao-um-pet-form-label">Adicione uma foto do Profissional</span>
+                    </div>
+               </div>
+
+                          
+               <div class="botao botao-profissional">
+                <button class="botao-1">Confirmar o Cadastro</button>
+               </div>  
+
+            <div class="secao-um-pet-form">
+                <a href="./cadastro-pet-secao-2.html"><img class="img-next" src="../img/next.png" alt="Ícone de next"></a>
+            </div>           
+        </section>
+    </form>
+
+    
+</body>
+</html>

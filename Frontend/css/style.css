@@ -5,9 +5,9 @@
 @import url(./cadastro-pet/cadastro-pet-secao-1.css);
 @import url(./cadastro-pet/cadastro-pet-secao-2.css);
 @import url(./cadastro-pet/cadastro-pet-secao-3.css);
-@import url(./cadastro-vacina/cadastro-vacina.css);;
+@import url(./cadastro-vacina/cadastro-vacina.css);
 @import url(./usuario-logado/usuario-logado.css);
-
+@import url(./cadastro-de-profissionais/cadastro-de-profissionais.css);
 
 * {
     margin: 0;

@@ -1,0 +1,95 @@
+/* Define o formulário como um container flex em coluna */
+.secao-um-pet-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* As seções de itens do formulário serão organizadas verticalmente */
+.secao-profissionais-itens-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribui espaço entre os itens */
+    margin-bottom: 20px; /* Espaço opcional entre as linhas */
+}
+
+/* Cada item do formulário ocupa espaço proporcional */
+.secao-um-pet-form-item {
+    flex: 1;
+    min-width: 200px; /* Ajuste conforme necessário */
+    margin-right: 10px; /* Espaçamento entre os itens */
+}
+
+/* Remove o background preto se não for necessário */
+.secao-um-pet-form-item {
+    background-color: transparent; /* Ou remova esta linha */
+    margin: 0;
+}
+
+.nome {
+    margin-right: 200px;
+}
+
+.input-nome {
+    width: 135%;
+}
+
+.input-email {
+    width: 80%;
+}
+
+
+.telefone {
+    margin-right: 100px;
+}
+
+.input-telefone {
+    width: 120%;
+}
+
+.especialidade {
+    margin-right: 100px;
+}
+
+
+.input-crmv {
+    width: 70%;
+}
+
+.endereco {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-logradouro {
+    width: 40%;
+    margin-right: 40px;
+}
+
+.input-bairro {
+    width: 32%;
+    margin-right: 40px;
+}
+
+.input-numero {
+    width: 12.5%;
+}
+
+.input-complemento {
+    width: 30%;
+    margin-right: 40px;
+}
+
+.input-cep {
+    width: 20%;
+    margin-right: 40px;
+}
+
+.input-cidade {
+    width: 20%;
+    margin-right: 40px;
+}
+
+.input-estado {
+    width: 10.78%;
+}

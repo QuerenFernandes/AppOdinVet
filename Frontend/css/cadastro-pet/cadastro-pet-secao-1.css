@@ -178,6 +178,12 @@
     box-sizing: border-box; /* Inclui padding e border no tamanho total */
 }
 
+.secao-um-pet-form-label {
+    font-size: 20px;
+    color: var(--cinza-principal);
+    font-weight: bold;
+}
+
 .secao-um-pet-form-input:focus, .secao-um-pet-form-select:focus, .textarea-peso:focus, .textarea-obs:focus {
     border: 2px solid var(--cinza-secundario);
     box-shadow: var(--shadow-hover);
